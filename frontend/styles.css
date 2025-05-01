@@ -520,6 +520,11 @@ body, html {
     margin: 20px auto;
   }
 
+  .animated-card:hover {
+    transform: scale(1.0); /* Remove or reduce scaling */
+  }
+  
+
   /* Skills section */
   .skills {
     flex-direction: column;
@@ -539,9 +544,13 @@ body, html {
   }
 
   /* Projects section */
+  
   .project {
     flex-direction: column; /* Stack projects vertically */
     align-items: center;
+  }
+  .project-div{
+    margin: auto;
   }
 
   .project-image-container {
